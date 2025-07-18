@@ -561,10 +561,15 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00CD  LKAS AT EUR LHD 1.00 1.01 99211-J7000 B40',
       b'\xf1\x00CDT LKAS AT EUR LHD 1.00 1.01 99211-J7210 521',
+      b'\xf1\x00CDC LKAS AT EUR LHD 1.00 1.01 99211-J7100 t21',
     ],
     (Ecu.abs, 0x7d1, None): [
       b'\xf1\x00CD ESC \x03 102\x18\x08\x05 58920-J7350',
       b'\xf1\x00CD ESC \x0b 101 \x10\x03 58910-J7AC0',
+      b'\xf1\x00CD ESC \r 104\x19\x10\x13 58910-J7390',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x006U2V0_C2\x00\x006U2V7051\x00\x00DCD0T14US1U\x867Z',
     ],
   },
   CAR.KIA_FORTE: {
